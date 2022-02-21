@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200;1,700&family=Work+Sans:wght@200&display=swap');
+
+body
+{
+    background-color:#99f5ff;
+}
+
+#timetable
+{
+    margin-top:100px;
+}
+
+#weekA, #weekB
+{
+    display:flex;
+    justify-content:space-between;
+}
+
+#timetable
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between
+}
+
+.day
+{
+    border: 1px solid black;
+    margin-bottom:20px;
+    width:150px;
+    text-align:center;
+    background-color:#fff;
+}
+.day div{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.title
+{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#name
+{
+    margin:auto;
+    background-color: #f5a89f;
+    margin:0px;
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+#name input{
+    margin-left:500px;
+    height:20px;
+    margin-top:10px;
+}
+#name button{
+    margin-right:500px;
+    height:20px;
+    margin-top:10px;
+}
+
+
+html{
+    margin:0px;
+}
+body{
+    margin:0px;
+}
